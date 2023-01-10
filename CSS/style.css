@@ -104,7 +104,7 @@ header {
 }
 
 .hero {
-	height: 750px;
+	height: 80vh;
 	width: 100%;
 	background-position: center;
 	background-size: cover;
@@ -137,11 +137,13 @@ header {
 
 .highlight {
 	width: 100%;
-	/* height: ; */
+	/* height: 650px; */
+	padding: 20px 0px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 20px;
+	justify-content: center;
+	/* border: solid green 2px */
 }
 
 .highlight:nth-child(even) {
@@ -166,18 +168,26 @@ header {
 }
 
 .highlightImageRow {
-	border: solid red 2px;
+	/* border: solid red 2px; */
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
+	height: 60%;
+}
+
+.imageCard {
+	/* border: solid blue 2px; */
+	width: 30%;
+	height: 100%;
 }
 
 .imageCard > img {
-	max-width: 300px;
-	width: calc(20vw + 10px);
+	width: 100%;
 	height: 300px;
 	object-fit: cover;
 }
 
-
+.highlight:nth-child(even) .imageCard {
+	width: 20%;
+}
