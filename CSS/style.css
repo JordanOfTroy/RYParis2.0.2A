@@ -51,7 +51,14 @@ table {
 /* =-=-=-=-= ^^^^^ CSS RESET ^^^^^ =-=-=-=-= */
 
 :root {
-    
+    --yellow: #F1A536;
+    --red: #A63223;
+    --white: #FFFFFF;
+    --black: #2E2C2A;
+    --grey: #DADFEA;
+    --textGrey: #585757;
+    --textBalck: #0A0A0A;
+    --borderGrey: #DBE0EA; 
 }
 
 
