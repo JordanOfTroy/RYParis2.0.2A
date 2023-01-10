@@ -60,6 +60,8 @@ table {
     --textGrey: #585757;
     --textBalck: #0A0A0A;
     --borderGrey: #DBE0EA; 
+
+	/* --heroImageHome: url("./images/hero-image.jpg"); */
 }
 
 /* =-=-=-=-= ^^^^^ Variables ^^^^^ =-=-=-=-= */
@@ -100,3 +102,36 @@ header {
 .topNav > li > a:hover {
 	text-decoration: underline;
 }
+
+.hero {
+	height: 750px;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	border-top: solid var(--white) 4px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: end;
+	padding-bottom: 175px;
+}
+
+#homeHero {
+	background-image: url("/images/hero-image.jpg");
+}
+
+#recipeHero {
+	background-image: url("/images/bengal-burger.jpg");
+}
+
+.heroOverlay {
+	background-color: var(--white);
+	text-transform: uppercase;
+	font-size: 34px;
+	font-weight: 900;
+	letter-spacing: 1px;
+	/* position: fixed; */
+	padding: 10px;
+	border-radius: 1px;
+}
+
