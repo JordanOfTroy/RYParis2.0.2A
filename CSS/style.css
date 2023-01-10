@@ -174,7 +174,8 @@ header {
 }
 
 .imageCard > img {
-	width: 350px;
+	max-width: 300px;
+	width: calc(20vw + 10px);
 	height: 300px;
 	object-fit: cover;
 }
