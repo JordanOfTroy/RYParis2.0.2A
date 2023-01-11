@@ -259,3 +259,69 @@ header,footer {
 	text-transform: capitalize;
 	margin-bottom: 20px;
 }
+
+.recipeReview {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 25px 80px;
+}
+
+.reviewTitle {
+	font-size: 52px;
+	font-weight: 900;
+	text-transform: uppercase;
+	margin: 10px 0px;
+}
+
+.ratingRow, .buttonRow {
+	margin: 10px 0px;
+	width: 20%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	justify-content: center;
+}
+
+.ratingRow > p, .buttonRow > i {
+	margin-left: 10px;
+	text-transform: capitalize;
+}
+
+.ratingRow > .stars > i {
+	color: var(--red);
+	font-size: 20px;
+}
+
+.buttonRow > button, .buttonRow > i {
+	font-size: 20px;
+}
+
+.buttonRow {
+	width: 30%;
+}
+
+.saveRecipeButton {
+	padding: 10px 30px;
+	text-transform: capitalize;
+	border: none;
+	background-color: var(--red);
+	color: var(--white);
+	border-radius: 50px;
+}
+
+.saveRecipeButton:hover {
+	cursor: pointer;
+	color: var(--red);
+	border: solid var(--red) 1px;
+	background-color: var(--white);
+}
+
+.buttonRow > i {
+	padding: 10px;
+	border: solid var(--textGrey) 1px;
+	color: var(--textGrey);
+	border-radius: 100%;
+}
