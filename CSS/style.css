@@ -57,9 +57,10 @@ table {
     --white: #FFFFFF;
     --black: #2E2C2A;
     --grey: #DADFEA;
+    --borderGrey: #DBE0EA; 
+	--lightGrey: #EFF0F4;
     --textGrey: #585757;
     --textBalck: #0A0A0A;
-    --borderGrey: #DBE0EA; 
 
 	/* --heroImageHome: url("./images/hero-image.jpg"); */
 }
@@ -265,7 +266,7 @@ header,footer {
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-evenly;
-	padding: 25px 80px;
+	padding: 80px;
 }
 
 .reviewTitle {
@@ -325,3 +326,15 @@ header,footer {
 	color: var(--textGrey);
 	border-radius: 100%;
 }
+
+blockquote {
+	background: var(--lightGrey);
+	margin-top: 50px;
+	padding: 40px 125px;
+  }
+  blockquote p {
+	display: inline;
+	font-size: 28px;
+	font-weight: 900;
+	color: var(--textGrey);
+  }
