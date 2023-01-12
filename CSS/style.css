@@ -62,7 +62,6 @@ table {
     --textGrey: #585757;
     --textBalck: #0A0A0A;
 
-	/* --heroImageHome: url("./images/hero-image.jpg"); */
 }
 
 /* =-=-=-=-= ^^^^^ Variables ^^^^^ =-=-=-=-= */
@@ -112,7 +111,7 @@ header,footer {
 }
 
 .hero {
-	height: 80vh;
+	height: 100vh;
 	width: 100%;
 	background-position: center;
 	background-size: cover;
@@ -346,12 +345,11 @@ blockquote {
 	justify-content: space-between;
 	align-items: flex-start;
 	width: 100%;
-	/* border: solid blue 2px; */
 	padding: 0px 80px;
+	margin-bottom: 150px;
   }
 
   .recipeInstructions > * {
-	/* border: solid red 2px; */
 	width: 50%;
 	text-align: left;
   }
@@ -362,7 +360,6 @@ blockquote {
   }
 
   .ingredientList, .spiceMix {
-	/* list-style-type: circle; */
 	list-style-type: disc;
   }
 
@@ -389,12 +386,15 @@ blockquote {
   }
 
   .ingredients > h3, .directions h3 {
-	color: red;
-	font-size: 32px;
+	font-size: 20px;
 	font-weight: 900;
 	text-transform: capitalize;
-	margin-bottom: 30px;
 	letter-spacing: .5px;
+	margin-bottom: 10px;
+  }
+
+  .ingredients > h3 {
+	margin-top: 30px;
   }
 
   .ingredientList, .spiceMix, .directionsList {
