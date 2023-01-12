@@ -332,9 +332,77 @@ blockquote {
 	margin-top: 50px;
 	padding: 40px 125px;
   }
+
   blockquote p {
 	display: inline;
 	font-size: 28px;
 	font-weight: 900;
 	color: var(--textGrey);
+  }
+
+  .recipeInstructions {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 100%;
+	/* border: solid blue 2px; */
+	padding: 0px 80px;
+  }
+
+  .recipeInstructions > * {
+	/* border: solid red 2px; */
+	width: 50%;
+	text-align: left;
+  }
+
+  .goLeft {
+	text-align: left;
+	padding: 0px;
+  }
+
+  .ingredientList, .spiceMix {
+	/* list-style-type: circle; */
+	list-style-type: disc;
+  }
+
+  .directionsList {
+	list-style-type: decimal;
+  }
+
+  .recipeInstructions li {
+	/* color: red; */
+	font-size: 20px;
+	font-weight: 300;
+  }
+
+  .ingredientList > li, .spiceMix > li, .spiceMix > li {
+	margin-bottom: 10px;
+  }
+
+  .ingredients > h2, .directions > h2 {
+	font-size: 32px;
+	font-weight: 900;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+	letter-spacing: .5px;
+  }
+
+  .ingredients > h3, .directions h3 {
+	color: red;
+	font-size: 32px;
+	font-weight: 900;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+	letter-spacing: .5px;
+  }
+
+  .ingredientList, .spiceMix, .directionsList {
+	list-style-position: inside;
+  }
+
+  .directionsList > li {
+	margin-bottom: 30px;
+	text-indent: -1em;
+  	padding-left: 1em;
   }
