@@ -124,13 +124,16 @@ header,footer {
 }
 
 #homeHero {
-	background-image: url("https://drive.google.com/file/d/14jIYQKI9TKTe8HLMkINPa18iElOcQmJ5/view?usp=share_link");
+	/* Provided image would not load once hosted on pages :( */
+	background-image: url("https://images.pexels.com/photos/8775043/pexels-photo-8775043.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
 	/* background-image: url("/images/hero-image.jpg"); */
 	border-top: solid var(--white) 4px;
 }
 
 #recipeHero {
-	background-image: url("/images/bengal-burger.jpg");
+	/* Provided image would not load once hosted on pages :( */
+	background-image: url("https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+	/* background-image: url("/images/bengal-burger.jpg"); */
 }
 
 .heroOverlay {
