@@ -80,7 +80,7 @@ h3 {
 
 header,footer {
 	width: 100%;
-	height: 100px;
+	height: 150px;
 	background-color: var(--yellow);
 	padding: 0px 65px;
 	display: flex;
@@ -115,6 +115,7 @@ header,footer {
 	width: 100%;
 	background-position: center;
 	background-size: cover;
+	background-repeat: no;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -170,8 +171,9 @@ header,footer {
 }
 
 .highlight > p {
-	font-size: 20px;
-	font-weight: 400;
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 1.5em;
 }
 
 .highlightImageRow {
@@ -198,13 +200,13 @@ header,footer {
 }
 
 .highlight:nth-child(even) .imageCard {
-	border: solid red 4px;
 	width: 250px;
 	height: 250px;
 }
 
 .highlight:nth-child(even) h3 {
 	background-color: var(--white);
+	text-transform: capitalize;
 }
 
 .borderedImg {
@@ -332,77 +334,81 @@ blockquote {
 	padding: 40px 125px;
   }
 
-  blockquote p {
-	display: inline;
-	font-size: 28px;
-	font-weight: 900;
-	color: var(--textGrey);
-  }
+blockquote p {
+display: inline;
+font-size: 28px;
+font-weight: 900;
+color: var(--textGrey);
+}
 
-  .recipeInstructions {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: flex-start;
-	width: 100%;
-	padding: 0px 80px;
-	margin-bottom: 150px;
-  }
+.recipeInstructions {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+width: 100%;
+padding: 0px 80px;
+margin-bottom: 150px;
+}
 
-  .recipeInstructions > * {
-	width: 50%;
-	text-align: left;
-  }
+.recipeInstructions > * {
+width: 50%;
+text-align: left;
+}
 
-  .goLeft {
-	text-align: left;
-	padding: 0px;
-  }
+.goLeft {
+text-align: left;
+padding: 0px;
+}
 
-  .ingredientList, .spiceMix {
-	list-style-type: disc;
-  }
+.ingredientList, .spiceMix {
+list-style-type: disc;
+}
 
-  .directionsList {
-	list-style-type: decimal;
-  }
+.directionsList {
+list-style-type: decimal;
+}
 
-  .recipeInstructions li {
-	/* color: red; */
-	font-size: 20px;
-	font-weight: 300;
-  }
+.recipeInstructions li {
+/* color: red; */
+font-size: 20px;
+font-weight: 300;
+}
 
-  .ingredientList > li, .spiceMix > li, .spiceMix > li {
-	margin-bottom: 10px;
-  }
+.ingredientList > li, .spiceMix > li, .spiceMix > li {
+margin-bottom: 10px;
+}
 
-  .ingredients > h2, .directions > h2 {
-	font-size: 32px;
-	font-weight: 900;
-	text-transform: capitalize;
-	margin-bottom: 30px;
-	letter-spacing: .5px;
-  }
+.ingredients > h2, .directions > h2 {
+font-size: 32px;
+font-weight: 900;
+text-transform: capitalize;
+margin-bottom: 30px;
+letter-spacing: .5px;
+}
 
-  .ingredients > h3, .directions h3 {
-	font-size: 20px;
-	font-weight: 900;
-	text-transform: capitalize;
-	letter-spacing: .5px;
-	margin-bottom: 10px;
-  }
+.ingredients > h3, .directions h3 {
+font-size: 20px;
+font-weight: 900;
+text-transform: capitalize;
+letter-spacing: .5px;
+margin-bottom: 10px;
+}
 
-  .ingredients > h3 {
-	margin-top: 30px;
-  }
+.ingredients > h3 {
+margin-top: 30px;
+}
 
-  .ingredientList, .spiceMix, .directionsList {
-	list-style-position: inside;
-  }
+.directions h3 {
+	margin-left: 20px;
+}
 
-  .directionsList > li {
-	margin-bottom: 30px;
-	text-indent: -1em;
-  	padding-left: 1em;
-  }
+.ingredientList, .spiceMix, .directionsList {
+list-style-position: inside;
+}
+
+.directionsList > li {
+margin-bottom: 30px;
+text-indent: -1em;
+padding-left: 1em;
+}
